@@ -1,0 +1,18 @@
+body{
+    background: url(../Images/sunset.gif) no-repeat;
+    background-size: cover;
+}
+.bird{
+    animation: flying 7s ease-in 1s infinite backwards;
+}
+img{
+    transform: rotate(180deg);   
+}
+@keyframes flying {
+    0% {
+        transform: translateX(-40%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
